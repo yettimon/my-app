@@ -1,5 +1,5 @@
 import React    from "react";
-import template from "./Header.js";
+import template from "./Header.jsx";
 
 class Header extends React.Component {
   render() {
