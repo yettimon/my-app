@@ -3,7 +3,7 @@ import React from "react";
 import Products from '../Products/Products';
 import About from '../About/About';
 import Home from '../Home/Home';
-import {BrowserRouter as Router, Route, NavLink, Redirect, Switch, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 
 function template() {
@@ -25,17 +25,17 @@ function template() {
         </div> */}
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div className="" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link nav-bar-anime">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <p className="nav-link nav-bar-anime">
                 <Link to="/">Home</Link>
-                </a>
+                </p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-bar-anime"><Link to="/products">Products</Link></a>
+            <li className="nav-item">
+              <p className="nav-link nav-bar-anime"><Link to="/products">Products</Link></p>
             </li>
-            <li class="nav-item">
-              <a class="nav-link nav-bar-anime"><Link to="/about">About</Link></a>
+            <li className="nav-item">
+              <p className="nav-link nav-bar-anime"><Link to="/about">A</Link>dd new user</p>
             </li>
           </ul>
         </div>

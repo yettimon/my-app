@@ -1,10 +1,11 @@
 import "./About.scss";
 import React from "react";
+import User from "../User/User";
 
 function template() {
   return (
     <div className="about">
-      <h1>About</h1>
+      <User/>
     </div>
   );
 };
